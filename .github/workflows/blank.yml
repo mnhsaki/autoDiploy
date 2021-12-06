@@ -46,6 +46,6 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
 
           script: |
-            cd /var/www/html/saki.iatlbd.com/
+            cd /var/www/html/saki.iatlbd.com/autoDiploy/
             git pull origin main
             git status
