@@ -47,5 +47,6 @@ jobs:
 
           script: |
             cd /var/www/html/saki.iatlbd.com/dev/autoDiploy/
+            git checkout dev
             git pull origin dev
             git status
